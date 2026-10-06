@@ -28,7 +28,7 @@ To run these programs from a terminal, use the following commands:
 3. Divide the miles by the gallons and assign the result to the miles per gallon variable.
 4. Output the final variable with a descriptive label and units.
 
-## 4. Test Tables
+## Test Tables
 
 | Program and test | Values used | Expected result before running | Actual output | Match or fix |
 | :--- | :--- | :--- | :--- | :--- |
@@ -40,7 +40,7 @@ To run these programs from a terminal, use the following commands:
 *Note: I have restored the original values to both programs and re-ran them to confirm they still output the assigned data.*
 ---
 
-## 5. Code Explanations
+## Code Explanations
 
 **sum.cpp**
 The starting values (50 and 100) are stored in memory as integer variables. During the calculation step, the CPU retrieves these two values, adds them together to get 150, and pushes that 150 into the memory reserved for the `total` variable. The `cout` statement then reads the value inside `total` and prints it to the screen. We store the calculation in `total` before printing to keep the processing logic separate from the output logic, which makes the code cleaner and allows for the reusage of the `total` value later in the program if needed.
