@@ -32,22 +32,12 @@ To run these programs from a terminal, use the following commands:
 
 | Program and test | Values used | Expected result before running | Actual output | Match or fix |
 | :--- | :--- | :--- | :--- | :--- |
-| **sum.cpp**
+| **sum.cpp** (assigned values) | `50`, `100` | 150 | 150 | ✅ Match |
+| **sum.cpp** (changed values) | `75`, `25` | 100 | 100 | ✅ Match |
+| **mpg.cpp** (assigned values) | `312` miles, `16` gallons | 19.5 | 19.5 | ✅ Match |
+| **mpg.cpp** (changed values) | `350` miles, `15` gallons | 23.3333 | 23.3333 | ✅ Match |
 
-*(assigned values)* | `50`, `100` | 150 | 150 | Match |
-| **sum.cpp**
-
-*(changed values)* | `75`, `25` | 100 | 100 | Match |
-| **mpg.cpp**
-
-*(assigned values)* | `312` miles
-
-`16` gallons | 19.5 | 19.5 | Match |
-| **mpg.cpp**
-
-*(changed values)* | `350` miles
-
-`15` gallons | 23.3333 | 23.3333 | Match |
+*Note: I temporarily changed the values to run the second set of tests, but have restored the originally assigned values to both .cpp files and performed a final run to confirm they work.*
 
 *Note: I have restored the original values to both programs and re-ran them to confirm they still output the assigned data.*
 
