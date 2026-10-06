@@ -12,8 +12,8 @@ To run these programs from a terminal, use the following commands:
 `g++ -std=c++17 -Wall -Wextra mpg.cpp -o mpg`
 `./mpg`
 
-* Note: I use a Mac, and so my terminal compiles slightly differently than a Windows machine. More specifically, I use `clang++` instead of `g++`*
-  ---
+* Note: I use a Mac, and so my terminal compiles slightly differently than a Windows machine. More specifically, I use `clang++` instead of `g++`
+---
 ## Program Plans
 
 **sum.cpp Plan:**
