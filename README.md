@@ -31,8 +31,8 @@ To run these programs from a terminal, use the following commands:
 ## 4. Test Tables
 
 | Program and test | Values used | Expected result before running | Actual output | Match or fix |
-| --- | --- | --- | --- | --- |
-| **sum.cpp** |  |  |  |  |
+| :--- | :--- | :--- | :--- | :--- |
+| **sum.cpp**
 
 *(assigned values)* | `50`, `100` | 150 | 150 | Match |
 | **sum.cpp**
